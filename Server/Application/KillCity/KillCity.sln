@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30503.244
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KillCity", "KillCity\KillCity.csproj", "{AF5F7814-D91B-482E-867D-77ACC3975C41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillCity.Common", "KillCity.Common\KillCity.Common.csproj", "{1805D333-152B-4039-9BE3-BC51A661C3C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KillCity.Common", "KillCity.Common\KillCity.Common.csproj", "{1805D333-152B-4039-9BE3-BC51A661C3C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillCity.Db", "KillCity.Db\KillCity.Db.csproj", "{83A72642-497E-474B-9503-1307D218FDF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KillCity.Db", "KillCity.Db\KillCity.Db.csproj", "{83A72642-497E-474B-9503-1307D218FDF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillCity.Deployer", "KillCity.Deployer\KillCity.Deployer.csproj", "{608A78F3-0592-4C45-A0B5-0D762ED5139C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KillCity.Deployer", "KillCity.Deployer\KillCity.Deployer.csproj", "{608A78F3-0592-4C45-A0B5-0D762ED5139C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KillCity.Contract", "KillCity.Contract\KillCity.Contract.csproj", "{1842C453-6131-4FB5-9E53-3841C0F7F5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{608A78F3-0592-4C45-A0B5-0D762ED5139C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{608A78F3-0592-4C45-A0B5-0D762ED5139C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{608A78F3-0592-4C45-A0B5-0D762ED5139C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1842C453-6131-4FB5-9E53-3841C0F7F5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1842C453-6131-4FB5-9E53-3841C0F7F5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1842C453-6131-4FB5-9E53-3841C0F7F5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1842C453-6131-4FB5-9E53-3841C0F7F5A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

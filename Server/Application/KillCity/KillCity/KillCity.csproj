@@ -31,6 +31,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KillCity.Common\KillCity.Common.csproj" />
+    <ProjectReference Include="..\KillCity.Contract\KillCity.Contract.csproj" />
     <ProjectReference Include="..\KillCity.Db\KillCity.Db.csproj" />
     <ProjectReference Include="..\KillCity.Deployer\KillCity.Deployer.csproj" />
   </ItemGroup>
